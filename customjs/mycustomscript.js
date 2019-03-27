@@ -6,8 +6,11 @@ $(document).ready(function() {
 });
 
 //for the email
-$(document).ready(function(){
-    $('.buttonemail').on('click',function(){
-       window.location.href = "mailto:address@dmail.com"; 
+$(function () {
+    $('.btnSendEmail').click(function (event) {
+      var email = 'info@metrodefender.org';
+      var subject = 'Information';
+      var emailBody = 'Hello, ';
+      window.location = 'mailto:' + email + '?subject=' + subject + '&body=' + emailBody;
     });
-});
+  });
