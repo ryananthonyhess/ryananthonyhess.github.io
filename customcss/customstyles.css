@@ -1,0 +1,16 @@
+.page_title {
+    font-size: 1.5em;
+    font-family: 'Snell Roundhand';
+}
+
+.bottom-space {
+    padding-top: 100px;
+}
+
+.jumbotron {
+    background-color: rgb(24,41,85)!important;
+}
+
+.btn {
+    background-color: rgb(24, 41, 85)!important;
+}
